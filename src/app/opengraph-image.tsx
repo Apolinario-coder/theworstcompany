@@ -1,7 +1,6 @@
 import { ImageResponse } from 'next/og'
  
-export const runtime = 'edge'
- 
+  
 export const alt = 'A EMPRESA MAIS CRUEL DO MUNDO'
 export const size = {
   width: 1200,

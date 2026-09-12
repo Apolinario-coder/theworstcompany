@@ -12,6 +12,7 @@ const courier = Courier_Prime({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://theworstcompany.vercel.app"),
   title: "Dossiê: A Empresa Mais Cruel do Mundo",
   description: "Um dossiê investigativo sobre exploração, água e escândalos corporativos. O histórico de violações que eles tentam esconder.",
   openGraph: {
