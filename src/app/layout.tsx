@@ -13,7 +13,20 @@ const courier = Courier_Prime({
 
 export const metadata: Metadata = {
   title: "Dossiê: A Empresa Mais Cruel do Mundo",
-  description: "Um dossiê investigativo sobre exploração, água e escândalos corporativos.",
+  description: "Um dossiê investigativo sobre exploração, água e escândalos corporativos. O histórico de violações que eles tentam esconder.",
+  openGraph: {
+    title: "Dossiê: A Empresa Mais Cruel do Mundo",
+    description: "Um dossiê investigativo sobre décadas de escândalos corporativos e exploração.",
+    url: "https://theworstcompany.vercel.app",
+    siteName: "Arquivo Confidencial",
+    locale: "pt_BR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dossiê: A Empresa Mais Cruel do Mundo",
+    description: "Um dossiê investigativo sobre décadas de escândalos corporativos e exploração.",
+  },
 };
 
 export default function RootLayout({
